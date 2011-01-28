@@ -1,5 +1,8 @@
 #!/usr/bin/env ruby
 
+require 'rubygems'
+require 'bundler/setup'
+
 $: << File.dirname(__FILE__) + '/lib'
 
 require 'tvdb'

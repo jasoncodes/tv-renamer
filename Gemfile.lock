@@ -1,0 +1,17 @@
+GIT
+  remote: git://github.com/jasoncodes/tvdb.git
+  revision: 327dd5b4ae813d129a9789fd3de40a48589c4a3a
+  specs:
+    tvdb (0.0.1)
+      xml-simple (~> 1.0.12)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    xml-simple (1.0.15)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  tvdb!
