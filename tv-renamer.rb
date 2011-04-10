@@ -1,10 +1,10 @@
 #!/usr/bin/env ruby
 
-$:.unshift File.dirname(__FILE__)
+$: << File.dirname(__FILE__) + '/lib'
 
-require 'lib/tvdb/tvdb'
-require 'lib/tvparser'
-require 'lib/tvrenamer'
+require 'tvdb'
+require 'tvparser'
+require 'tvrenamer'
 
 VALID_VIDEO_TYPES = %w{avi mkv m2v mpg mpeg mov ogm wmv mp4 srt}
 QUALITIES = %w{HDTV 720P 1080i Bluray}
